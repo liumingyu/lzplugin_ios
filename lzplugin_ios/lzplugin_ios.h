@@ -15,4 +15,4 @@ FOUNDATION_EXPORT const unsigned char lzplugin_iosVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <lzplugin_ios/PublicHeader.h>
 
-
+#import<lzplugin_ios/PluginTest.h>

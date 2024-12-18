@@ -11,6 +11,8 @@
 		937CCFC32D12A348003B8165 /* lzplugin_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937CCFB82D12A347003B8165 /* lzplugin_ios.framework */; };
 		937CCFC82D12A348003B8165 /* lzplugin_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CCFC72D12A348003B8165 /* lzplugin_iosTests.m */; };
 		937CCFC92D12A348003B8165 /* lzplugin_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 937CCFBB2D12A348003B8165 /* lzplugin_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937CCFD42D12A382003B8165 /* PluginTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 937CCFD22D12A382003B8165 /* PluginTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937CCFD52D12A382003B8165 /* PluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 937CCFD32D12A382003B8165 /* PluginTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		937CCFBC2D12A348003B8165 /* lzplugin_ios.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = lzplugin_ios.docc; sourceTree = "<group>"; };
 		937CCFC22D12A348003B8165 /* lzplugin_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lzplugin_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937CCFC72D12A348003B8165 /* lzplugin_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzplugin_iosTests.m; sourceTree = "<group>"; };
+		937CCFD22D12A382003B8165 /* PluginTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginTest.h; sourceTree = "<group>"; };
+		937CCFD32D12A382003B8165 /* PluginTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluginTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				937CCFBB2D12A348003B8165 /* lzplugin_ios.h */,
 				937CCFBC2D12A348003B8165 /* lzplugin_ios.docc */,
+				937CCFD22D12A382003B8165 /* PluginTest.h */,
+				937CCFD32D12A382003B8165 /* PluginTest.m */,
 			);
 			path = lzplugin_ios;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				937CCFC92D12A348003B8165 /* lzplugin_ios.h in Headers */,
+				937CCFD42D12A382003B8165 /* PluginTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937CCFD52D12A382003B8165 /* PluginTest.m in Sources */,
 				937CCFBD2D12A348003B8165 /* lzplugin_ios.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
